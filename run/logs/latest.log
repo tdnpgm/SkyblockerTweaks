@@ -1,0 +1,19 @@
+[21:03:54] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.2 with Fabric Loader 0.16.7
+[21:03:55] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[21:03:55] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_NO_CANDIDATE skyblocker 1.22.2+1.21.1 {depends yet_another_config_lib_v3 @ [>=3.5.0+1.21]}, ROOT_FORCELOAD_SINGLE skyblocker 1.22.2+1.21.1]
+[21:03:55] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP skyblocker 1.22.2+1.21.1 {depends yet_another_config_lib_v3 @ [>=3.5.0+1.21]}, HARD_DEP skyblocker 1.22.2+1.21.1 {depends hm-api @ [>=1.0.1+1.21.1]}]
+[21:03:55] [main/INFO] (FabricLoader/Resolution) Fix: add [add:yet_another_config_lib_v3 3.5.0+1.21 ([[3.5.0+1.21,∞)]), add:hm-api 1.0.1+1.21.1 ([[1.0.1+1.21.1,∞)])], remove [], replace []
+[21:03:55] [main/ERROR] (FabricLoader) Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+次の解決策を試してみてください:
+	 - yet_another_config_lib_v3 の バージョン 3.5.0+1.21 またはそれ以上 を追加する。
+	 - hm-api の バージョン 1.0.1+1.21.1 またはそれ以上 を追加する。
+満たされていないModの依存関係:
+	 - Mod 'Skyblocker' (skyblocker) 1.22.2+1.21.1 は バージョン 3.5.0+1.21 またはそれ以上 の yet_another_config_lib_v3 を必要としますが、そのModがありません!
+	 - Mod 'Skyblocker' (skyblocker) 1.22.2+1.21.1 は バージョン 1.0.1+1.21.1 またはそれ以上 の hm-api を必要としますが、そのModがありません!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]

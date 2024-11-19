@@ -1,0 +1,26 @@
+{
+  "sbtweaks.config.title": "Skyblocker Tweaks Config",
+  "sbtweaks.config.enable": "Enable",
+  "sbtweaks.config.general": "General",
+  "sbtweaks.config.target_pitch": "Target Pitch",
+  "sbtweaks.config.target_yaw": "Target Yaw",
+  "sbtweaks.keybinding.tuneview_key": "Fine-tuning the View",
+  "sbtweaks.config.group.tune_view": "Fine-tuning the View",
+  "sbtweaks.config.tuneview_sensitivity_multiplier": "Sensitivity Multiplier",
+  "sbtweaks.config.tuneview_fov_multiplier": "Fov Multiplier",
+  "sbtweaks.config.detailed_tooltip": "Detailed Tooltip",
+  "sbtweaks.config.death_message": "Death Message",
+  "sbtweaks.config.tooltip.ALWAYS_VISIBLE": "Always Visible",
+  "sbtweaks.config.tooltip.VISIBLE_ON_SHIFT": "Visible On Shift",
+  "sbtweaks.config.tooltip.HIDDEN": "Hidden",
+  "sbtweaks.config.message.PASS": "Pass",
+  "sbtweaks.config.message.FILTER_ON_NORMAL_WORLD": "Filter on Normal World",
+  "sbtweaks.config.message.FILTER": "Filter",
+  "sbtweaks.config.group.smooth_aote": "Smooth AOTE",
+  "sbtweaks.config.config.aote_animation_ticks": "AOTE Animation Ticks",
+  "sbtweaks.config.config.aote_interpolation_type": "Animation Interpolation Type",
+  "sbtweaks.config.config.interpolation.LINEAR": "Linear",
+  "sbtweaks.config.config.interpolation.QUADRATIC": "Quadratic",
+  "sbtweaks.config.config.interpolation.CUBIC": "Cubic"
+
+}

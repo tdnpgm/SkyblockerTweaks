@@ -1,0 +1,4 @@
+v1	named	intermediary
+FIELD	net/toarupgm/skyblockertweaks/mixins/GameRendererMixin	Lnet/minecraft/client/render/BufferBuilderStorage;	buffers	field_20948
+FIELD	net/toarupgm/skyblockertweaks/mixins/GameRendererMixin	Lnet/minecraft/client/MinecraftClient;	client	field_4015
+FIELD	net/toarupgm/skyblockertweaks/mixins/GameRendererMixin	Lnet/minecraft/client/render/Camera;	camera	field_18765

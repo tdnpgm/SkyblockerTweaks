@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "skyblockertweaks",
+  "version": "${version}",
+  "name": "SkyblockerTweaks",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/skyblockertweaks/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.toarupgm.skyblockertweaks.client.SkyblockerTweaksClient"
+    ],
+    "modmenu": [
+      "net.toarupgm.skyblockertweaks.client.config.ModMenuEntry"
+    ],
+    "main": [
+      "net.toarupgm.skyblockertweaks.SkyblockerTweaks"
+    ]
+  },
+  "mixins": [
+    "skyblockertweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": ">=${yacl_version}"
+  }
+}

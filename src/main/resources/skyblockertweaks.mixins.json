@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.toarupgm.skyblockertweaks.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "minecraft.ClientPlayNetworkHandlerMixin",
+    "skyblocker.SignCalculatorMixin"
+  ],
+  "client": [
+    "minecraft.ClientWorldMixin",
+    "minecraft.GameRendererMixin",
+    "minecraft.MouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

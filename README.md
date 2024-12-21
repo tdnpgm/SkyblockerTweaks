@@ -4,3 +4,5 @@ This is a unofficial addon of Skyblocker Mod(https://github.com/SkyblockerMod/Sk
 Required mods
 - Skyblocker • Hypixel Skyblock
 - YetAnotherConfigLib (YACL)
+
+Update based on latest version of cit resewn and skyblocker
